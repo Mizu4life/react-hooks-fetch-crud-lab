@@ -13,12 +13,6 @@
       "correctIndex": 1
     },
     {
-      "id": 3,
-      "prompt": "Which event handler will run when a user is finished filling out a form?",
-      "answers": ["onSubmit", "onClick", "onChange", "onForm"],
-      "correctIndex": 0
-    },
-    {
       "id": 4,
       "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
       "answers": ["React", "Babel", "Webpack", "ES6"],
@@ -35,6 +29,17 @@
       "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
       "answers": ["voodoo", "conditional", "reactive", "controlled"],
       "correctIndex": 1
+    },
+    {
+      "prompt": "Are we supposed to re-enter the deleted questions?",
+      "answers": [
+        "No, it is totally fine.",
+        "No, but that would be nice.",
+        "Yes, but it is ok if you forgot them.",
+        "Yes! we will detect from your score if not!"
+      ],
+      "correctIndex": 1,
+      "id": 7
     }
   ]
 }
